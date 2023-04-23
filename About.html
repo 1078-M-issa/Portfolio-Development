@@ -28,25 +28,36 @@
 
 <body>
     <!-- Navigation -->
-    <div id="Navigation" class="navbar navbar-light navbar-expand fixed-top" style=" background-color: #9978e4;">
-        <div class="container-fluid">
-
-            <div>
-                <a class="navbar-brand" href="#">
-                    <h1> The Interactive Canvas</h1>
-                </a>
-            </div>
-
-            <div class="nav navbar-nav">
-                <ul class="nav navbar-nav">
+    <nav class="navbar navbar-expand fixed-top p-2 navbar-dark" style=" background-color: #9978e4;">
+        <a class="navbar-brand" href="index.html">
+            <h1> The Interactive Canvas</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <ul class="nav navbar-nav">
                     
-                    <li class="nav-item"><a class="nav-link " href="Index.html"><B>HOME</B></a></li>
-                    <li class="nav-item"><a class="nav-link " href="Gallery.html"><B>GALLERIA</B></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="index.html">Home</a>
+                      <a class="dropdown-item" href="GalleryVisual.html">Visual Gallery</a>
+                      <a class="dropdown-item" href="GalleryProgramming.html">Programming Gallery</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="About.html">About</a>
+                    </div>
+                  </li>
+                
 
-                </ul>
-            </div>
+            </ul>
+          </ul>
         </div>
-    </div>
+    </nav>
     <!-- end of Nav -->
 
     <!-- Short Bio -->
