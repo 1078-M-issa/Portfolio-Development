@@ -19,6 +19,7 @@
     <!-- jquery/Javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -35,7 +36,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand fixed-top p-2 navbar-dark" style=" background-color: #9978e4;">
         <a class="navbar-brand" href="index.html">
-            <h1> The Interactive Canvas</h1>
+            <img src="Resources/Arts/LOGO PD Dark.png" class="logoimg">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -215,15 +216,25 @@
 
     </div>
 
-    <footer style="padding-top: 5%; background-color: #9978e4;">
-        <div name="footer content">
+    <!-- The Modal -->
+    <div id="Modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+  
 
-            <p>All rights reserved</p>
+    <footer style="padding-top:     5%; background-color: #9978e4;">
+        <div id="footer-content">
+
+            <p>2023 All rights reserved</p>
 
 
         </div>
     </footer>
 
+    
+    <script src="JavaScript.js"></script>
 
 </body>
 
