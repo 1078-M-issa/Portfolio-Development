@@ -119,4 +119,14 @@ body{
     color: white;
   }
 
+  footer {
+    padding-top: 2%;
+    background-color: #9978e4;
+  }
+
+  #img01 {
+    margin-top: 5%;
+    max-width: 200%;
+  }
+
 
