@@ -139,4 +139,18 @@ body{
     font-size: 18px;
   }
 
+  .footerlink{
+    color: white;
+  }
+
+  div > a {
+    color: #9978e4;
+  }
+
+  .About_Title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
+
+
 
